@@ -20,7 +20,7 @@ namespace Uplift.DataAccess.Data.Repository.IRepository
             Expression<Func<T, bool>> filter = null,
             string includeProperties = null);
 
-        void add(T entity);
+        void Add(T entity);
 
         void Remove(int id);
         void Remove(T entity);

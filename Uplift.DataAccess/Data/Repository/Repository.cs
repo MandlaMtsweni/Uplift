@@ -18,7 +18,7 @@ namespace Uplift.DataAccess.Data.Repository.IRepository
             this.dbSet = context.Set<T>();
         }
 
-        public void add(T entity)
+        public void Add(T entity)
         {
             dbSet.Add(entity);
         }
